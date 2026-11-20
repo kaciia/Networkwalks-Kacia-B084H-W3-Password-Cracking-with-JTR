@@ -128,7 +128,7 @@ The executable was selected to allow Johnny to communicate with John the Ripper.
 
 **Screenshot 7 – Locating john.exe**
 
-![Locate John Executable](screenshots/JTR/07-locate-john-exe.png)
+![Locate John Executable](Locate-john.png)
 
 **Screenshot 8 – John Executable Selected**
 
@@ -174,17 +174,6 @@ The hash values were expected to begin with `$pdf$`.
 
 ![Upload PDF 1](screenshots/JTR/13-upload-lockedpdf1.png)
 
-**Screenshot 14 – Hash Extracted for lockedpdf1**
-
-![Hash PDF 1](screenshots/JTR/14-hash-lockedpdf1.png)
-
-**Screenshot 15 – Hash Extracted for lockedpdf2**
-
-![Hash PDF 2](screenshots/JTR/15-hash-lockedpdf2.png)
-
-**Screenshot 16 – Hash Extracted for lockedpdf3**
-
-![Hash PDF 3](screenshots/JTR/16-hash-lockedpdf3.png)
 
 **Note:** If the extracted hash contains additional characters such as `b'` at the beginning, these should be removed before saving the hash file. The hash should retain the correct `$pdf$` format.
 
