@@ -189,19 +189,8 @@ The first hash file was saved as `hash1.txt`. Separate files were prepared for t
 
 **Screenshot 17 – Hash Pasted into Notepad**
 
-![Hash in Notepad](screenshots/JTR/17-hash-notepad.png)
+![Hash in Notepad](Hash.txt.png)
 
-**Screenshot 18 – Saving Hash1.txt**
-
-![Save Hash 1](screenshots/JTR/18-save-hash1.png)
-
-**Screenshot 19 – Saving Hash2.txt**
-
-![Save Hash 2](screenshots/JTR/19-save-hash2.png)
-
-**Screenshot 20 – Saving Hash3.txt**
-
-![Save Hash 3](screenshots/JTR/20-save-hash3.png)
 
 ---
 
