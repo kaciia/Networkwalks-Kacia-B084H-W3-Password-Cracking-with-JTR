@@ -144,15 +144,15 @@ The documents were saved locally before beginning the hash extraction process.
 
 **Screenshot 9 – First Protected PDF**
 
-![Locked PDF 1](screenshots/JTR/09-lockedpdf1.png)
+![Locked PDF 1](Lockedpdf1.jpeg)
 
 **Screenshot 10 – Second Protected PDF**
 
-![Locked PDF 2](screenshots/JTR/10-lockedpdf2.png)
+![Locked PDF 2](Lockedpdf2.jpeg)
 
 **Screenshot 11 – Third Protected PDF**
 
-![Locked PDF 3](screenshots/JTR/11-lockedpdf3.png)
+![Locked PDF 3](Lockedpdf3.jpeg)
 
 ---
 
