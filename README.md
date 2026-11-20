@@ -132,7 +132,7 @@ The executable was selected to allow Johnny to communicate with John the Ripper.
 
 **Screenshot 8 – John Executable Selected**
 
-![John Executable Selected](screenshots/JTR/08-john-exe-selected.png)
+![John Executable Selected](John-excutable.png)
 
 ---
 
