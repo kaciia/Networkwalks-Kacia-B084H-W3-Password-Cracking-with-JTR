@@ -304,154 +304,40 @@ The exercise demonstrated how password hashes can be extracted and used in passw
 
 ---
 
-# 🟣 PROJECT MODULE 2: PASSWORD CRACKING WITH NETWORKWALKS TOOLS
 
-## 2.1 Background
+# 🌐 MODULE 2: PASSWORD CRACKING WITH NETWORKWALKS TOOLS
 
-The second practical exercise focused on using Networkwalks online tools to extract and crack passwords from protected PDF documents.
+## 2.1 Introduction
 
-The exercise involved two main tools:
+This practical involved using Networkwalks online tools to extract password hashes from an encrypted PDF and perform a password-cracking attempt.
+
+## 2.2 Tools Used
 
 - Networkwalks Hash Calculator
 - Networkwalks Password Cracker
+- Encrypted PDF document
 
-Unlike the first module, which required installing software, these tools were accessed directly through a web browser.
+## 2.3 Practical Procedure
 
-The Hash Calculator was used to generate the PDF password hash, while the Password Cracker attempted to recover the original password from that hash.
+1. Accessed the encrypted PDF document provided for the practical.
+2. Used the Networkwalks Hash Calculator to extract the PDF password hash.
+3. Copied the generated hash into the Networkwalks Password Cracker.
+4. Initiated the cracking process and reviewed the results.
+5. Used the recovered password to verify access to the PDF document.
 
-## 2.2 Task
+## 2.4 Results
 
-Use the Networkwalks Hash Calculator and Password Cracker tools on a Windows laptop to recover the password of the provided protected PDF document.
+📸 **Screenshot 1 – PDF Hash Extraction**
 
----
+![Hash Extraction](screenshots/Networkwalks/hash-extraction.png)
 
-## 2.3 PROCEDURE AND IMPLEMENTATION
+📸 **Screenshot 2 – Password Cracking Process**
 
-### STEP 1 – Download the Encrypted PDF
+![Password Cracking](screenshots/Networkwalks/password-cracker.png)
 
-The Networkwalks practical lab webpage was accessed.
+📸 **Screenshot 3 – Final Results**
 
-The protected PDF document, identified in the lab instructions as `My Locked PDF1.pdf`, was downloaded to the computer.
-
----
-
-### STEP 2 – Open the Networkwalks Hash Calculator
-
-The Networkwalks Hash Calculator was opened using the web browser.
-
-The tool was prepared to receive the protected PDF document.
-
-**Screenshot 3 – Hash Calculator Website**
-
-![Hash Calculator](hash-calculator.jpeg)
-
----
-
-### STEP 3 – Upload the Protected PDF
-
-The protected PDF document was uploaded to the Hash Calculator.
-
-The tool processed the file and generated its corresponding PDF password hash.
-
-**Screenshot 4 – Selecting the PDF File**
-
-![Select PDF](screenshots/Networkwalks/04-select-pdf.png)
-
-**Screenshot 5 – PDF Uploaded**
-
-![PDF Uploaded](screenshots/Networkwalks/05-pdf-uploaded.png)
-
----
-
-### STEP 4 – Copy the Extracted Hash
-
-After the file was processed, the generated hash was displayed.
-
-The complete hash value was copied for use in the Password Cracker.
-
-The hash began with `$pdf$`.
-
-**Screenshot 6 – Generated PDF Hash**
-
-![Generated Hash](screenshots/Networkwalks/06-generated-hash.png)
-
-**Screenshot 7 – Copying the Complete Hash**
-
-![Copy Hash](screenshots/Networkwalks/07-copy-hash.png)
-
----
-
-### STEP 5 – Open the Networkwalks Password Cracker
-
-The Networkwalks Password Cracker was accessed through the web browser.
-
-The tool was prepared to receive the extracted hash value.
-
-**Screenshot 8 – Password Cracker Website**
-
-![Password Cracker](screenshots/Networkwalks/08-password-cracker.png)
-
----
-
-### STEP 6 – Submit the Hash and Start the Attack
-
-The copied PDF hash was pasted into the Password Cracker.
-
-The Start Attack option was selected to begin the password-recovery process.
-
-The tool attempted different password combinations until a match was found or the attempt concluded.
-
-**Screenshot 9 – Hash Entered into Password Cracker**
-
-![Hash Entered](screenshots/Networkwalks/09-hash-entered.png)
-
-**Screenshot 10 – Password-Cracking Process Started**
-
-![Attack Started](screenshots/Networkwalks/10-attack-started.png)
-
----
-
-### STEP 7 – Review the Cracking Result
-
-The Password Cracker was allowed to complete its process.
-
-The result displayed by the tool was reviewed.
-
-The time taken depended on the complexity of the password.
-
-**Screenshot 11 – Password-Cracking Result**
-
-![Cracking Result](screenshots/Networkwalks/11-cracking-result.png)
-
----
-
-### STEP 8 – Verify the Recovered Password
-
-The protected PDF document was opened.
-
-The recovered password was entered to confirm that the document could be accessed successfully.
-
-**Screenshot 12 – Entering the Recovered Password**
-
-![Enter Password](screenshots/Networkwalks/12-enter-password.png)
-
-**Screenshot 13 – Successfully Opened PDF**
-
-![PDF Opened](screenshots/Networkwalks/13-pdf-opened.png)
-
----
-
-## 2.4 MODULE 2 SUMMARY
-
-The second module demonstrated how Networkwalks online tools can be used to extract PDF password hashes and attempt password recovery.
-
-The Hash Calculator generated the hash, which was then submitted to the Password Cracker.
-
-The recovered password was tested against the protected PDF document to verify the result.
-
-This exercise provided additional insight into password cracking using browser-based cybersecurity tools.
-
----
+![Cracking Results](screenshots/Networkwalks/cracking-results.png)
 
 # 📚 KEY LEARNINGS
 
