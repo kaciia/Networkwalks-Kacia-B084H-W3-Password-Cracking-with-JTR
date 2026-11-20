@@ -108,7 +108,7 @@ Johnny GUI was downloaded from the official website.
 
 The installation file was opened, and the setup instructions were followed to complete the installation.
 
-![Johnny Interface](screenshots/JTR/05-johnny-interface.png)
+![Johnny Interface](Johnny-interface.png)
 
 ---
 
@@ -124,7 +124,7 @@ The executable was selected to allow Johnny to communicate with John the Ripper.
 
 **Screenshot 6 – Johnny Settings**
 
-![Johnny Settings](screenshots/JTR/06-johnny-settings.png)
+![Johnny Settings](Johnny-settings.png)
 
 **Screenshot 7 – Locating john.exe**
 
