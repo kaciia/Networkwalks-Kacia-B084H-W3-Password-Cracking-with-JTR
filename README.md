@@ -1,18 +1,16 @@
 # 🔐 WEEK 3 – PASSWORD CRACKING PRACTICAL
-### Cybersecurity & Ethical Hacking | Password Security and Hash Analysis
+### Cybersecurity & Ethical Hacking | Password Security and Hash Analysis[cite: 2, 10]
 
 ![Cybersecurity](https://img.shields.io/badge/Field-Cybersecurity-blue?style=for-the-badge)
 ![Week](https://img.shields.io/badge/Week-03-purple?style=for-the-badge)
 ![Practical](https://img.shields.io/badge/Practical-Completed-success?style=for-the-badge)
 ![Tools](https://img.shields.io/badge/Tools-JTR%20%7C%20Networkwalks-orange?style=for-the-badge)
 
-> 📄 **Full Lab Report PDF:** [View Compiled Report (`documents/W3-Password-Cracking-Report.pdf`)](documents/W3-Password-Cracking-Report.pdf)
-
 ---
 
 # 📌 PROJECT OVERVIEW
 
-This repository contains the documentation for the Week 3 Cybersecurity and Ethical Hacking practical exercises[cite: 2, 10].
+This repository contains the lab report and documentation for the Week 3 Cybersecurity and Ethical Hacking practical exercises[cite: 2, 10].
 
 The exercises focused on password cracking, password hash extraction, and password recovery from encrypted PDF documents[cite: 3, 11].
 
@@ -584,5 +582,4 @@ Week-3-Password-Cracking/
 │       └── 13-pdf-opened.png             # flag 1.jpeg
 │
 └── documents/
-    ├── W3-Password-Cracking-Report.pdf
     └── Practical-Reference-Materials/
