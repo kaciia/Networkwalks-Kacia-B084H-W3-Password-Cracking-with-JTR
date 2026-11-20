@@ -19,7 +19,7 @@ Two practical modules were completed using different password-cracking approache
 - **Project Module 1:** Password Cracking with John the Ripper (JTR) and Johnny GUI.
 - **Project Module 2:** Password Cracking with Networkwalks Tools.
 
-For Module 1, three separate password-protected PDF documents were processed using John the Ripper[cite: 11]. Each document produced an individual password-cracking result.
+For Module 1, three separate password-protected PDF documents were processed using John the Ripper. Each document produced an individual password-cracking result.
 
 Module 2 introduced the use of Networkwalks online tools to extract PDF password hashes and attempt password recovery.
 
@@ -121,9 +121,9 @@ The executable was selected to allow Johnny to communicate with John the Ripper.
 
 ### STEP 2 – Prepare the Protected PDF Documents
 
-Three password-protected PDF documents were used for the exercise[cite: 11].
+Three password-protected PDF documents were used for the exercise.
 
-The documents were prepared locally before beginning the hash extraction process[cite: 15, 22].
+The documents were prepared locally before beginning the hash extraction process.
 
 **Screenshot 5 – First Protected PDF**
 
@@ -141,13 +141,13 @@ The documents were prepared locally before beginning the hash extraction process
 
 ### STEP 3 – Extract the PDF Password Hashes
 
-The Online PDF Hash Extractor was accessed through a web browser[cite: 15].
+The Online PDF Hash Extractor was accessed through a web browser.
 
-Each protected PDF document was uploaded individually to extract its corresponding password hash[cite: 15, 16].
+Each protected PDF document was uploaded individually to extract its corresponding password hash.
 
-The extracted hash values were copied for use in John the Ripper[cite: 16].
+The extracted hash values were copied for use in John the Ripper.
 
-The hash values were expected to begin with `$pdf$`[cite: 16].
+The hash values were expected to begin with `$pdf$`.
 
 **Screenshot 8 – PDF Hash Extractor Website**
 
@@ -169,17 +169,17 @@ The hash values were expected to begin with `$pdf$`[cite: 16].
 
 ![Hash PDF 3](screenshots/JTR/12-hash-lockedpdf3.png)
 
-**Note:** If the extracted hash contains additional characters such as `b'` at the beginning, these should be removed before saving the hash file[cite: 16]. The hash should retain the correct `$pdf$` format[cite: 16].
+**Note:** If the extracted hash contains additional characters such as `b'` at the beginning, these should be removed before saving the hash file. The hash should retain the correct `$pdf$` format.
 
 ---
 
 ### STEP 4 – Save the Extracted Hash Values
 
-Notepad was opened to store the extracted hash values[cite: 17].
+Notepad was opened to store the extracted hash values.
 
-Each hash was saved in a text file for use in the cracking process[cite: 16, 17, 18].
+Each hash was saved in a text file for use in the cracking process.
 
-The first hash file was saved as `hash1.txt`[cite: 18]. Separate files were prepared for the other PDF documents to keep the results organized.
+The first hash file was saved as `hash1.txt`. Separate files were prepared for the other PDF documents to keep the results organized.
 
 **Screenshot 13 – Hash Pasted into Notepad**
 
@@ -201,9 +201,9 @@ The first hash file was saved as `hash1.txt`[cite: 18]. Separate files were prep
 
 ### STEP 5 – Import Hash Files into Johnny
 
-Johnny was reopened[cite: 18].
+Johnny was reopened.
 
-The Open Password File option was selected, and the saved hash text file was imported[cite: 19, 20].
+The Open Password File option was selected, and the saved hash text file was imported.
 
 This process was repeated for each of the three PDF documents.
 
@@ -227,13 +227,13 @@ This process was repeated for each of the three PDF documents.
 
 ### STEP 6 – Start the Password-Cracking Attack
 
-After importing each hash file, the Start New Attack option was selected[cite: 20].
+After importing each hash file, the Start New Attack option was selected.
 
-John the Ripper began processing the hash and attempting to recover the corresponding password[cite: 20, 21].
+John the Ripper began processing the hash and attempting to recover the corresponding password.
 
 The process was performed separately for each PDF document.
 
-The time required depended on the computer's processing speed and the complexity of the password[cite: 20].
+The time required depended on the computer's processing speed and the complexity of the password.
 
 **Screenshot 21 – Starting Attack on lockedpdf1**
 
@@ -251,7 +251,7 @@ The time required depended on the computer's processing speed and the complexity
 
 ## 1.4 RESULTS AND SCREENSHOTS
 
-The three protected PDF documents were processed individually using John the Ripper[cite: 11].
+The three protected PDF documents were processed individually using John the Ripper.
 
 Each document produced a different password-cracking result.
 
@@ -259,7 +259,7 @@ The screenshots below provide placeholders for the individual results obtained d
 
 ### RESULT 1 – lockedpdf1
 
-**Description:** Password-cracking result for the first protected PDF document[cite: 11].
+**Description:** Password-cracking result for the first protected PDF document.
 
 **Screenshot:**
 
@@ -301,11 +301,11 @@ The screenshots below provide placeholders for the individual results obtained d
 
 ## 1.5 MODULE 1 SUMMARY
 
-The first module provided practical experience using John the Ripper and Johnny GUI to recover passwords from encrypted PDF documents[cite: 11].
+The first module provided practical experience using John the Ripper and Johnny GUI to recover passwords from encrypted PDF documents.
 
 Three separate PDF files were processed, with individual hash extraction, import, cracking, and result verification.
 
-The exercise demonstrated how password hashes can be extracted and used in password-cracking tools to evaluate the strength of document passwords[cite: 11].
+The exercise demonstrated how password hashes can be extracted and used in password-cracking tools to evaluate the strength of document passwords.
 
 ---
 
@@ -313,20 +313,20 @@ The exercise demonstrated how password hashes can be extracted and used in passw
 
 ## 2.1 Background
 
-The second practical exercise focused on using Networkwalks online tools to extract and crack passwords from protected PDF documents[cite: 3].
+The second practical exercise focused on using Networkwalks online tools to extract and crack passwords from protected PDF documents.
 
-The exercise involved two main tools[cite: 3]:
+The exercise involved two main tools:
 
-- Networkwalks Hash Calculator[cite: 3, 4]
-- Networkwalks Password Cracker[cite: 3, 5, 6]
+- Networkwalks Hash Calculator
+- Networkwalks Password Cracker
 
-These tools were accessed directly through a web browser[cite: 3].
+These tools were accessed directly through a web browser.
 
-The Hash Calculator was used to generate the PDF password hash, while the Password Cracker attempted to recover the original password from that hash[cite: 3, 5, 6].
+The Hash Calculator was used to generate the PDF password hash, while the Password Cracker attempted to recover the original password from that hash.
 
 ## 2.2 Task
 
-Use the Networkwalks Hash Calculator and Password Cracker tools on a Windows laptop to recover the password of the provided protected PDF document[cite: 3].
+Use the Networkwalks Hash Calculator and Password Cracker tools on a Windows laptop to recover the password of the provided protected PDF document.
 
 ---
 
@@ -334,9 +334,9 @@ Use the Networkwalks Hash Calculator and Password Cracker tools on a Windows lap
 
 ### STEP 1 – Access the Encrypted PDF
 
-The Networkwalks practical lab resources were accessed[cite: 4, 30].
+The Networkwalks practical lab resources were accessed.
 
-The protected PDF document, identified in the lab instructions as `My Locked PDF1.pdf`, was opened for analysis[cite: 4, 30].
+The protected PDF document, identified in the lab instructions as `My Locked PDF1.pdf`, was opened for analysis.
 
 **Screenshot 1 – Networkwalks Lab Page**
 
@@ -344,27 +344,27 @@ The protected PDF document, identified in the lab instructions as `My Locked PDF
 
 **Screenshot 2 – Protected PDF (`My Locked PDF1.pdf`)**
 
-![Protected PDF](screenshots/Networkwalks/02-downloaded-pdf.png)[cite: 30]
+![Protected PDF](screenshots/Networkwalks/02-downloaded-pdf.png)
 
 ---
 
 ### STEP 2 – Open the Networkwalks Hash Calculator
 
-The Networkwalks Hash Calculator was opened using the web browser[cite: 4, 29].
+The Networkwalks Hash Calculator was opened using the web browser.
 
-The tool was prepared to receive the protected PDF document[cite: 4, 29].
+The tool was prepared to receive the protected PDF document.
 
 **Screenshot 3 – Hash Calculator Website**
 
-![Hash Calculator](screenshots/Networkwalks/03-hash-calculator.png)[cite: 29]
+![Hash Calculator](screenshots/Networkwalks/03-hash-calculator.png)
 
 ---
 
 ### STEP 3 – Upload the Protected PDF
 
-The protected PDF document was uploaded to the Hash Calculator[cite: 4, 5, 28].
+The protected PDF document was uploaded to the Hash Calculator.
 
-The tool processed the file and generated its corresponding PDF password hash[cite: 4, 5, 28].
+The tool processed the file and generated its corresponding PDF password hash.
 
 **Screenshot 4 – Selecting the PDF File**
 
@@ -378,15 +378,15 @@ The tool processed the file and generated its corresponding PDF password hash[ci
 
 ### STEP 4 – Copy the Extracted Hash
 
-After the file was processed, the generated hash was displayed[cite: 5, 28].
+After the file was processed, the generated hash was displayed.
 
-The complete hash value was copied for use in the Password Cracker[cite: 5, 6].
+The complete hash value was copied for use in the Password Cracker.
 
-The hash began with `$pdf$`[cite: 4, 5, 28].
+The hash began with `$pdf$`.
 
 **Screenshot 6 – Generated PDF Hash (`My-Locked-PDF1.pdf`)**
 
-![Generated Hash](screenshots/Networkwalks/06-generated-hash.png)[cite: 28]
+![Generated Hash](screenshots/Networkwalks/06-generated-hash.png)
 
 **Screenshot 7 – Copying the Complete Hash**
 
@@ -396,53 +396,53 @@ The hash began with `$pdf$`[cite: 4, 5, 28].
 
 ### STEP 5 – Open the Networkwalks Password Cracker
 
-The Networkwalks Password Cracker was accessed through the web browser[cite: 5, 6, 31].
+The Networkwalks Password Cracker was accessed through the web browser.
 
-The tool was prepared to receive the extracted hash value[cite: 6, 31].
+The tool was prepared to receive the extracted hash value.
 
 **Screenshot 8 – Password Cracker Website**
 
-![Password Cracker](screenshots/Networkwalks/08-password-cracker.png)[cite: 31]
+![Password Cracker](screenshots/Networkwalks/08-password-cracker.png)
 
 ---
 
 ### STEP 6 – Submit the Hash and Start the Attack
 
-The copied PDF hash was pasted into the Password Cracker[cite: 6, 27].
+The copied PDF hash was pasted into the Password Cracker.
 
-The Start Attack option was selected to begin the password-recovery process[cite: 6, 26].
+The Start Attack option was selected to begin the password-recovery process.
 
-The tool attempted different password combinations until a match was found or the attempt concluded[cite: 6, 7, 26].
+The tool attempted different password combinations until a match was found or the attempt concluded.
 
 **Screenshot 9 – Hash Entered into Password Cracker**
 
-![Hash Entered](screenshots/Networkwalks/09-hash-entered.png)[cite: 27]
+![Hash Entered](screenshots/Networkwalks/09-hash-entered.png)
 
 **Screenshot 10 – Password-Cracking Process Started (58% Progress)**
 
-![Attack Started](screenshots/Networkwalks/10-attack-started.png)[cite: 26]
+![Attack Started](screenshots/Networkwalks/10-attack-started.png)
 
 ---
 
 ### STEP 7 – Review the Cracking Result
 
-The Password Cracker was allowed to complete its process[cite: 7, 25].
+The Password Cracker was allowed to complete its process.
 
-The result displayed by the tool was reviewed — `password1` was matched[cite: 7, 25].
+The result displayed by the tool was reviewed — `password1` was matched.
 
-The time taken depended on the complexity of the password[cite: 7].
+The time taken depended on the complexity of the password.
 
 **Screenshot 11 – Password-Cracking Result (`password1` Cracked)**
 
-![Cracking Result](screenshots/Networkwalks/11-cracking-result.png)[cite: 25]
+![Cracking Result](screenshots/Networkwalks/11-cracking-result.png)
 
 ---
 
 ### STEP 8 – Verify the Recovered Password
 
-The protected PDF document was opened[cite: 7, 8, 24].
+The protected PDF document was opened.
 
-The recovered password (`password1`) was entered to confirm that the document could be accessed successfully, revealing Flag 1: `nw{networkwalks_flag1_jtr_270521_1}`[cite: 7, 8, 24].
+The recovered password (`password1`) was entered to confirm that the document could be accessed successfully, revealing Flag 1: `nw{networkwalks_flag1_jtr_270521_1}`.
 
 **Screenshot 12 – Entering the Recovered Password**
 
@@ -450,48 +450,48 @@ The recovered password (`password1`) was entered to confirm that the document co
 
 **Screenshot 13 – Successfully Opened PDF & Captured Flag (`nw{networkwalks_flag1_jtr_270521_1}`)**
 
-![PDF Opened](screenshots/Networkwalks/13-pdf-opened.png)[cite: 24]
+![PDF Opened](screenshots/Networkwalks/13-pdf-opened.png)
 
 ---
 
 ## 2.4 MODULE 2 SUMMARY
 
-The second module demonstrated how Networkwalks online tools can be used to extract PDF password hashes and attempt password recovery[cite: 3].
+The second module demonstrated how Networkwalks online tools can be used to extract PDF password hashes and attempt password recovery.
 
-The Hash Calculator generated the hash (`$pdf$...`), which was then submitted to the Password Cracker[cite: 3, 4, 6, 28].
+The Hash Calculator generated the hash (`$pdf$...`), which was then submitted to the Password Cracker.
 
-The recovered password (`password1`) was tested against the protected PDF document to verify the result and capture Flag 1 (`nw{networkwalks_flag1_jtr_270521_1}`)[cite: 7, 8, 24].
+The recovered password (`password1`) was tested against the protected PDF document to verify the result and capture Flag 1 (`nw{networkwalks_flag1_jtr_270521_1}`).
 
-This exercise provided additional insight into password cracking using browser-based cybersecurity tools[cite: 3].
+This exercise provided additional insight into password cracking using browser-based cybersecurity tools.
 
 ---
 
 # 📚 KEY LEARNINGS
 
-The Week 3 practical exercises provided hands-on experience in password security and password-cracking techniques[cite: 3, 11].
+The Week 3 practical exercises provided hands-on experience in password security and password-cracking techniques.
 
 The main lessons learned include:
 
 ### 1. Password Hashing
-Developed an understanding of how passwords are represented through cryptographic hashes[cite: 3, 8].
+Developed an understanding of how passwords are represented through cryptographic hashes.
 
 ### 2. Hash Extraction
-Learned how to extract password hashes from encrypted PDF documents using online tools[cite: 3, 4, 15].
+Learned how to extract password hashes from encrypted PDF documents using online tools.
 
 ### 3. John the Ripper
-Gained practical experience configuring and using John the Ripper with Johnny GUI[cite: 11, 13, 14].
+Gained practical experience configuring and using John the Ripper with Johnny GUI.
 
 ### 4. Password Cracking
-Learned how password-cracking tools process hashes and attempt to identify the original password[cite: 3, 6, 7, 20, 21].
+Learned how password-cracking tools process hashes and attempt to identify the original password.
 
 ### 5. Networkwalks Tools
-Gained experience using online tools to calculate PDF hashes and attempt password recovery[cite: 3, 4, 6, 7].
+Gained experience using online tools to calculate PDF hashes and attempt password recovery.
 
 ### 6. Password Verification
-Understood the importance of testing recovered passwords against the original protected documents[cite: 7, 8, 22, 23].
+Understood the importance of testing recovered passwords against the original protected documents.
 
 ### 7. Password Security
-Recognized the importance of strong, unique, and complex passwords in protecting sensitive information[cite: 3, 8, 11].
+Recognized the importance of strong, unique, and complex passwords in protecting sensitive information.
 
 ---
 
@@ -499,11 +499,11 @@ Recognized the importance of strong, unique, and complex passwords in protecting
 
 Based on the exercises completed, the following security practices are recommended:
 
-- Use long and complex passwords[cite: 8].
-- Avoid common words and predictable password combinations[cite: 3, 8].
+- Use long and complex passwords.
+- Avoid common words and predictable password combinations.
 - Use unique passwords for different accounts and documents.
 - Consider using a reputable password manager.
-- Protect sensitive documents with strong encryption[cite: 8].
+- Protect sensitive documents with strong encryption.
 - Avoid sharing passwords and password hashes with unauthorized individuals.
 - Use multi-factor authentication where available.
 - Regularly review password security practices.
@@ -512,15 +512,15 @@ Based on the exercises completed, the following security practices are recommend
 
 # 📝 CONCLUSION
 
-The Week 3 practical exercises provided valuable hands-on experience in password cracking, hash extraction, and password security[cite: 3, 11].
+The Week 3 practical exercises provided valuable hands-on experience in password cracking, hash extraction, and password security.
 
-The first module focused on using John the Ripper and Johnny GUI to process three separate password-protected PDF documents[cite: 11]. Each document was handled individually, producing three different password-cracking results.
+The first module focused on using John the Ripper and Johnny GUI to process three separate password-protected PDF documents. Each document was handled individually, producing three different password-cracking results.
 
-The second module introduced Networkwalks online tools, demonstrating how PDF password hashes can be extracted and submitted for password recovery[cite: 3].
+The second module introduced Networkwalks online tools, demonstrating how PDF password hashes can be extracted and submitted for password recovery.
 
-Overall, the exercises strengthened my understanding of password protection, hash analysis, and the methods used by cybersecurity professionals to evaluate password security[cite: 3, 11].
+Overall, the exercises strengthened my understanding of password protection, hash analysis, and the methods used by cybersecurity professionals to evaluate password security.
 
-The practical activities also highlighted the importance of creating strong passwords to reduce the risk of unauthorized access[cite: 3, 8, 11].
+The practical activities also highlighted the importance of creating strong passwords to reduce the risk of unauthorized access.
 
 ---
 
