@@ -333,14 +333,6 @@ The Networkwalks practical lab webpage was accessed.
 
 The protected PDF document, identified in the lab instructions as `My Locked PDF1.pdf`, was downloaded to the computer.
 
-**Screenshot 1 – Networkwalks Lab Page**
-
-![Networkwalks Lab](screenshots/Networkwalks/01-networkwalks-lab.png)
-
-**Screenshot 2 – Downloaded Protected PDF**
-
-![Downloaded PDF](screenshots/Networkwalks/02-downloaded-pdf.png)
-
 ---
 
 ### STEP 2 – Open the Networkwalks Hash Calculator
@@ -351,7 +343,7 @@ The tool was prepared to receive the protected PDF document.
 
 **Screenshot 3 – Hash Calculator Website**
 
-![Hash Calculator](screenshots/Networkwalks/03-hash-calculator.png)
+![Hash Calculator](hash-calculator.jpeg)
 
 ---
 
