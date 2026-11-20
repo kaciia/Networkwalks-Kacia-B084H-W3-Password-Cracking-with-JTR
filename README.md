@@ -10,20 +10,20 @@
 
 # 📌 PROJECT OVERVIEW
 
-This repository contains the lab report and documentation for the Week 3 Cybersecurity and Ethical Hacking practical exercises[cite: 2, 10].
+This repository contains the lab report and documentation for the Week 3 Cybersecurity and Ethical Hacking practical exercises.
 
-The exercises focused on password cracking, password hash extraction, and password recovery from encrypted PDF documents[cite: 3, 11].
+The exercises focused on password cracking, password hash extraction, and password recovery from encrypted PDF documents.
 
-Two practical modules were completed using different password-cracking approaches[cite: 3, 11]:
+Two practical modules were completed using different password-cracking approaches:
 
 - **Project Module 1:** Password Cracking with John the Ripper (JTR) and Johnny GUI.
 - **Project Module 2:** Password Cracking with Networkwalks Tools.
 
 For Module 1, three separate password-protected PDF documents were processed using John the Ripper[cite: 11]. Each document produced an individual password-cracking result.
 
-Module 2 introduced the use of Networkwalks online tools to extract PDF password hashes and attempt password recovery[cite: 3].
+Module 2 introduced the use of Networkwalks online tools to extract PDF password hashes and attempt password recovery.
 
-The practical exercises provided hands-on experience with password security, hash extraction, and the importance of strong password protection[cite: 3, 11].
+The practical exercises provided hands-on experience with password security, hash extraction, and the importance of strong password protection.
 
 ---
 
@@ -31,13 +31,13 @@ The practical exercises provided hands-on experience with password security, has
 
 The objectives of these practical exercises were to:
 
-- Understand password cracking and password hashing[cite: 3, 8].
-- Identify how password-protected PDF documents are secured[cite: 3, 11].
-- Extract password hashes from encrypted PDF files[cite: 3].
-- Configure Johnny GUI and use John the Ripper to perform password-cracking attacks[cite: 11, 13, 14, 20].
-- Use Networkwalks tools to extract and crack PDF hashes[cite: 3, 6].
-- Verify recovered passwords by opening protected PDF documents[cite: 7, 8, 22, 23].
-- Understand the importance of strong and unique passwords[cite: 3, 8, 11].
+- Understand password cracking and password hashing.
+- Identify how password-protected PDF documents are secured.
+- Extract password hashes from encrypted PDF files.
+- Configure Johnny GUI and use John the Ripper to perform password-cracking attacks.
+- Use Networkwalks tools to extract and crack PDF hashes.
+- Verify recovered passwords by opening protected PDF documents.
+- Understand the importance of strong and unique passwords.
 
 ---
 
@@ -45,23 +45,23 @@ The objectives of these practical exercises were to:
 
 | Tool | Purpose |
 |---|---|
-| John the Ripper | Password-cracking software[cite: 11] |
-| Johnny GUI | Graphical interface for John the Ripper[cite: 11] |
-| PDF Hash Extractor | Extracts hashes from protected PDF documents[cite: 15, 16] |
-| Notepad | Saves extracted hash values[cite: 17, 18] |
-| Networkwalks Hash Calculator | Generates PDF password hashes[cite: 3, 4, 5] |
-| Networkwalks Password Cracker | Attempts password recovery[cite: 3, 6, 7] |
-| Windows PC | Operating environment[cite: 3, 11] |
-| Web Browser | Accesses online tools[cite: 3, 4, 6] |
+| John the Ripper | Password-cracking software |
+| Johnny GUI | Graphical interface for John the Ripper|
+| PDF Hash Extractor | Extracts hashes from protected PDF documents|
+| Notepad | Saves extracted hash values |
+| Networkwalks Hash Calculator | Generates PDF password hashes |
+| Networkwalks Password Cracker | Attempts password recovery |
+| Windows PC | Operating environment|
+| Web Browser | Accesses online tools|
 
 ## 🔗 TOOL REFERENCES
 
-- [John the Ripper Official Website](https://www.openwall.com/john/)[cite: 12]
-- [Johnny GUI](https://openwall.info/wiki/john/johnny)[cite: 12]
-- [Online PDF Hash Extractor](https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php)[cite: 15, 16]
-- [Networkwalks Practical Lab](https://networkwalks.com/project-task-lab-password-cracking-with-networkwalks-tools/)[cite: 4]
-- [Networkwalks Hash Calculator](https://networkwalks.com/hash-calculator/)[cite: 4]
-- [Networkwalks Password Cracker](https://networkwalks.com/password-cracker/)[cite: 5, 6]
+- [John the Ripper Official Website](https://www.openwall.com/john/)
+- [Johnny GUI](https://openwall.info/wiki/john/johnny)
+- [Online PDF Hash Extractor](https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php)
+- [Networkwalks Practical Lab](https://networkwalks.com/project-task-lab-password-cracking-with-networkwalks-tools/)
+- [Networkwalks Hash Calculator](https://networkwalks.com/hash-calculator/)
+- [Networkwalks Password Cracker](https://networkwalks.com/password-cracker/)
 
 ---
 
@@ -69,17 +69,17 @@ The objectives of these practical exercises were to:
 
 ## 1.1 Background
 
-John the Ripper (JTR) is a password-cracking tool commonly used by cybersecurity professionals to evaluate password strength[cite: 11].
+John the Ripper (JTR) is a password-cracking tool commonly used by cybersecurity professionals to evaluate password strength.
 
-It supports different password hash formats and can be used to test the security of password-protected files, including PDF documents[cite: 11].
+It supports different password hash formats and can be used to test the security of password-protected files, including PDF documents.
 
-Johnny is the graphical user interface for John the Ripper[cite: 11]. It provides a more accessible way to interact with JTR without relying entirely on command-line instructions[cite: 11].
+Johnny is the graphical user interface for John the Ripper. It provides a more accessible way to interact with JTR without relying entirely on command-line instructions.
 
-This practical involved using both John the Ripper and Johnny GUI to recover passwords from three separate protected PDF documents[cite: 11].
+This practical involved using both John the Ripper and Johnny GUI to recover passwords from three separate protected PDF documents.
 
 ## 1.2 Task
 
-Use John the Ripper and Johnny GUI on a Windows PC to crack the passwords of three protected PDF documents[cite: 11]:
+Use John the Ripper and Johnny GUI on a Windows PC to crack the passwords of three protected PDF documents:
 
 1. lockedpdf1
 2. lockedpdf2
@@ -93,13 +93,13 @@ Each document was processed separately, and the results were documented individu
 
 ### STEP 1 – Configure Johnny GUI
 
-Johnny was opened[cite: 13].
+Johnny was opened.
 
-The settings option was selected to configure the application and locate the John the Ripper executable[cite: 13].
+The settings option was selected to configure the application and locate the John the Ripper executable.
 
-The `john.exe` file was located inside the `run` folder within the John the Ripper directory[cite: 14].
+The `john.exe` file was located inside the `run` folder within the John the Ripper directory.
 
-The executable was selected to allow Johnny to communicate with John the Ripper[cite: 14].
+The executable was selected to allow Johnny to communicate with John the Ripper.
 
 **Screenshot 1 – Johnny GUI Opened**
 
