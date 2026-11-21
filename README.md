@@ -197,19 +197,8 @@ This process was repeated for each of the three PDF documents.
 
 **Screenshot 21 – Open Password File**
 
-![Open Password File](Password1.png)
+![Open Password File](Password-file.jpeg)
 
-**Screenshot 22 – Importing lockedpdf1 Hash**
-
-![Import Hash 1](screenshots/JTR/22-import-hash1.png)
-
-**Screenshot 23 – Importing lockedpdf2 Hash**
-
-![Import Hash 2](screenshots/JTR/23-import-hash2.png)
-
-**Screenshot 24 – Importing lockedpdf3 Hash**
-
-![Import Hash 3](screenshots/JTR/24-import-hash3.png)
 
 ---
 
