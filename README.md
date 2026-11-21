@@ -214,15 +214,9 @@ The time required depended on the computer's processing speed and the complexity
 
 **Screenshot 25 – Starting Attack on lockedpdf1**
 
-![Start Attack 1](screenshots/JTR/25-start-attack1.png)
+![Start Attack ](start-attack.jpeg)
 
-**Screenshot 26 – Starting Attack on lockedpdf2**
 
-![Start Attack 2](screenshots/JTR/26-start-attack2.png)
-
-**Screenshot 27 – Starting Attack on lockedpdf3**
-
-![Start Attack 3](screenshots/JTR/27-start-attack3.png)
 
 ---
 
@@ -240,7 +234,7 @@ The screenshots below provide placeholders for the individual results obtained d
 
 **Screenshot:**
 
-![lockedpdf1 Cracking Result](screenshots/JTR/28-lockedpdf1-result.png)
+![lockedpdf1 Cracking Result](lockedpdf1-result.jpeg)
 
 **PDF Verification:**
 
@@ -254,7 +248,7 @@ The screenshots below provide placeholders for the individual results obtained d
 
 **Screenshot:**
 
-![lockedpdf2 Cracking Result](screenshots/JTR/30-lockedpdf2-result.png)
+![lockedpdf2 Cracking Result](lockedpdf2-result.jpeg)
 
 **PDF Verification:**
 
@@ -268,7 +262,7 @@ The screenshots below provide placeholders for the individual results obtained d
 
 **Screenshot:**
 
-![lockedpdf3 Cracking Result](screenshots/JTR/32-lockedpdf3-result.png)
+![lockedpdf3 Cracking Result](lockedpdf3-result.jpeg)
 
 **PDF Verification:**
 
