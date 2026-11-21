@@ -234,7 +234,7 @@ The screenshots below provide placeholders for the individual results obtained d
 
 **Screenshot:**
 
-![lockedpdf1 Cracking Result](Lockedpdf-result1.jpeg)
+![lockedpdf1 Cracking Result](Lockedpdf_results1.jpeg)
 
 **PDF Verification:**
 
@@ -248,7 +248,7 @@ The screenshots below provide placeholders for the individual results obtained d
 
 **Screenshot:**
 
-![lockedpdf2 Cracking Result](Lockedpdf-result2.jpeg)
+![lockedpdf2 Cracking Result](Lockedpdf_results2.jpeg)
 
 **PDF Verification:**
 
@@ -262,7 +262,7 @@ The screenshots below provide placeholders for the individual results obtained d
 
 **Screenshot:**
 
-![lockedpdf3 Cracking Result](Lockedpdf-result3.jpeg)
+![lockedpdf3 Cracking Result](Lockedpdf_results3.jpeg)
 
 **PDF Verification:**
 
