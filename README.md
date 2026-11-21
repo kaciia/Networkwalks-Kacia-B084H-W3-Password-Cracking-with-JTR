@@ -309,11 +309,11 @@ This practical involved using Networkwalks online tools to extract password hash
 
 📸 **Screenshot 2 – Password Cracking Process**
 
-![Password Cracking](screenshots/Networkwalks/password-cracker.png)
+![Password Cracking](password-cracker.jpeg)
 
 📸 **Screenshot 3 – Final Results**
 
-![Cracking Results](screenshots/Networkwalks/cracking-results.png)
+![Cracking Results](cracking-results.jpeg)
 
 # 📚 KEY LEARNINGS
 
