@@ -168,14 +168,7 @@ The hash values were expected to begin with `$pdf$`.
 
 **Screenshot 12 – PDF Hash Extractor Website**
 
-![PDF Hash Extractor](hash-calculator.jpeg)
-
-**Screenshot 13 – Uploading lockedpdf1**
-
-![Upload PDF 1](encrypted-pdf.jpeg)
-
-
-**Note:** If the extracted hash contains additional characters such as `b'` at the beginning, these should be removed before saving the hash file. The hash should retain the correct `$pdf$` format.
+![PDF Hash Extractor](hash-extractor.png)
 
 ---
 
