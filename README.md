@@ -197,7 +197,7 @@ This process was repeated for each of the three PDF documents.
 
 **Screenshot 21 – Open Password File**
 
-![Open Password File](Password-file.jpeg)
+![Open Password File](password-file.jpeg)
 
 
 ---
