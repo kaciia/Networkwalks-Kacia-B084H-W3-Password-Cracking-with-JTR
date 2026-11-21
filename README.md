@@ -329,7 +329,7 @@ This practical involved using Networkwalks online tools to extract password hash
 
 📸 **Screenshot 1 – PDF Hash Extraction**
 
-![Hash Extraction](screenshots/Networkwalks/hash-extraction.png)
+![Hash Extraction](hash-calculator.jpeg)
 
 📸 **Screenshot 2 – Password Cracking Process**
 
