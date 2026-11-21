@@ -238,7 +238,7 @@ The screenshots below provide placeholders for the individual results obtained d
 
 **PDF Verification:**
 
-![lockedpdf1 Opened](screenshots/JTR/29-lockedpdf1-verified.png)
+![lockedpdf1 Opened](Lockedpdf1-verified.jpeg)
 
 ---
 
@@ -252,7 +252,7 @@ The screenshots below provide placeholders for the individual results obtained d
 
 **PDF Verification:**
 
-![lockedpdf2 Opened](screenshots/JTR/31-lockedpdf2-verified.png)
+![lockedpdf2 Opened](Lockedpdf2-verified.jpeg)
 
 ---
 
@@ -266,7 +266,7 @@ The screenshots below provide placeholders for the individual results obtained d
 
 **PDF Verification:**
 
-![lockedpdf3 Opened](screenshots/JTR/33-lockedpdf3-verified.png)
+![lockedpdf3 Opened](Lockedpdf3-verified.jpeg)
 
 ---
 
