@@ -128,7 +128,7 @@ The executable was selected to allow Johnny to communicate with John the Ripper.
 
 **Screenshot 7 – Locating john.exe**
 
-![Locate John Executable](Locate-john.png)
+![Locate John Executable](locate-john.jpeg)
 
 **Screenshot 8 – John Executable Selected**
 
